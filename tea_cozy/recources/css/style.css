@@ -1,0 +1,148 @@
+
+/* Main-Styles */
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.l-heading {
+    margin: 5px 0 10px 0;
+}
+
+.xs-heading {
+    margin: 10px 0 5px 0;
+}
+
+/* Header & Brand */
+
+header {
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.brand img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Navigation */
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:nth-child(3) {
+    margin-right: 10px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* Begin Main Section */
+/* -------------------------------------- End Mission ----------------------------------------*/
+
+.mission-content {
+    background-image: url("./../img/img-mission-background-header.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.mission-heading {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+/* -------------------------------------- End Mission ----------------------------------------*/
+/* ---------------------------------- Start Featured Tea -------------------------------------*/
+
+.featured-tea-content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-tea-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-tea-gallery figure {
+    margin: 10px;
+}
+
+.featured-tea-gallery img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------- End Featured Tea -------------------------------------*/
+/* ----------------------------------- Start Locations -------------------------------------*/
+
+.locations-content {
+    background-image: url("./../img/img-locations-background-footer.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    height: 500px;
+    width: 1200px;
+    padding-top: 69px;
+    margin: 69px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations-adress {
+    display: flex;
+    justify-content: center;
+}
+
+.locations-adress article{
+    flex-basis: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    opacity: 1.0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------------------------- End Locations -------------------------------------*/
+/* ----------------------------------- Start Footer --------------------------------------*/
+
+.footer-content {
+    height: 200px;
+}
+
+.copy {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* ----------------------------------- End Footer --------------------------------------*/
+
